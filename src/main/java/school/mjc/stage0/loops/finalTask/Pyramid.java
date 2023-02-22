@@ -13,7 +13,7 @@ public class Pyramid {
                 } else {
                     res += num;
                     if (num != 1) {
-                        sym += num;
+                        sym = num + sym;
                     }
                 }
 
